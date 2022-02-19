@@ -1,0 +1,10 @@
+# Colors
+xcassets:
+  - inputs: ./Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: ./Colors/Generated/CustomColors.swift
+        params:
+          enumName: CustomColors
+          publicAccess: true
+          allValues: true
