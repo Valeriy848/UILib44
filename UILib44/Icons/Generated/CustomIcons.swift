@@ -24,6 +24,7 @@ public enum CustomIcons {
   public static let arrowRight = IconAsset(name: "arrowRight")
   public static let block = IconAsset(name: "block")
   public static let cloud = IconAsset(name: "cloud")
+  public static let crossCircled = IconAsset(name: "crossCircled")
   public static let dragElement = IconAsset(name: "dragElement")
 
   // swiftlint:disable trailing_comma
@@ -33,6 +34,7 @@ public enum CustomIcons {
     arrowRight,
     block,
     cloud,
+    crossCircled,
     dragElement,
   ]
   // swiftlint:enable trailing_comma
