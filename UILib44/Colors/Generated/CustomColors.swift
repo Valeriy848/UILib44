@@ -21,14 +21,14 @@ public typealias AssetColorTypeAlias = ColorAsset.Color
 public enum CustomColors {
   public static let blue = ColorAsset(name: "blue")
   public static let gray = ColorAsset(name: "gray")
-  public static let gree = ColorAsset(name: "gree")
+  public static let green = ColorAsset(name: "green")
   public static let indigo = ColorAsset(name: "indigo")
   public static let levelOne = ColorAsset(name: "levelOne")
   public static let levelZero = ColorAsset(name: "levelZero")
   public static let lightGray = ColorAsset(name: "lightGray")
   public static let magenta = ColorAsset(name: "magenta")
   public static let mint = ColorAsset(name: "mint")
-  public static let orangeo = ColorAsset(name: "orangeo")
+  public static let orange = ColorAsset(name: "orange")
   public static let purple = ColorAsset(name: "purple")
   public static let red = ColorAsset(name: "red")
   public static let yellow = ColorAsset(name: "yellow")
@@ -37,14 +37,14 @@ public enum CustomColors {
   public static let allColors: [ColorAsset] = [
     blue,
     gray,
-    gree,
+    green,
     indigo,
     levelOne,
     levelZero,
     lightGray,
     magenta,
     mint,
-    orangeo,
+    orange,
     purple,
     red,
     yellow,
