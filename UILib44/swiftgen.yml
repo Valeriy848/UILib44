@@ -8,3 +8,15 @@ xcassets:
           enumName: CustomColors
           publicAccess: true
           allValues: true
+
+# Icons
+  - inputs: ./Icons.xcassets
+    outputs:
+      - templateName: swift5
+        output: ./Icons/Generated/CustomIcons.swift
+        params:
+          enumName: CustomIcons
+          imageTypeName: IconAsset
+          imageAliasName: AssetIconsTypeAlias
+          publicAccess: true
+          allValues: true
