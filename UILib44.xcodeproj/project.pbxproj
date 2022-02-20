@@ -10,6 +10,8 @@
 		3C687E7A27C0BEC0003EF6D2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C687E7927C0BEC0003EF6D2 /* Colors.xcassets */; };
 		3C687E7E27C0C102003EF6D2 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3C687E7D27C0C102003EF6D2 /* swiftgen.yml */; };
 		3C687E8227C0C359003EF6D2 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C687E8127C0C359003EF6D2 /* CustomColors.swift */; };
+		3CD1C27C27C236C10079932A /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD1C27B27C236C10079932A /* Icons.xcassets */; };
+		3CD1C28227C237E60079932A /* CustomIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1C28127C237E60079932A /* CustomIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +19,8 @@
 		3C687E7927C0BEC0003EF6D2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		3C687E7D27C0C102003EF6D2 /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		3C687E8127C0C359003EF6D2 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		3CD1C27B27C236C10079932A /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		3CD1C28127C237E60079932A /* CustomIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomIcons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +53,10 @@
 		3C2F3FF427C011830025E25F /* UILib44 */ = {
 			isa = PBXGroup;
 			children = (
+				3CD1C27D27C237A30079932A /* Icons */,
 				3C687E7B27C0C0DA003EF6D2 /* Colors */,
 				3C687E7927C0BEC0003EF6D2 /* Colors.xcassets */,
+				3CD1C27B27C236C10079932A /* Icons.xcassets */,
 				3C687E7D27C0C102003EF6D2 /* swiftgen.yml */,
 			);
 			path = UILib44;
@@ -68,6 +74,22 @@
 			isa = PBXGroup;
 			children = (
 				3C687E8127C0C359003EF6D2 /* CustomColors.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		3CD1C27D27C237A30079932A /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3CD1C27E27C237AE0079932A /* Generated */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		3CD1C27E27C237AE0079932A /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3CD1C28127C237E60079932A /* CustomIcons.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -142,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C687E7A27C0BEC0003EF6D2 /* Colors.xcassets in Resources */,
+				3CD1C27C27C236C10079932A /* Icons.xcassets in Resources */,
 				3C687E7E27C0C102003EF6D2 /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD1C28227C237E60079932A /* CustomIcons.swift in Sources */,
 				3C687E8227C0C359003EF6D2 /* CustomColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
