@@ -8,9 +8,9 @@
 import UIKit
 
 public final class Vibrate {
-    
+
     private init() {}
-    
+
     public static func vibrate(style: UIImpactFeedbackGenerator.FeedbackStyle) {
         let generator = UIImpactFeedbackGenerator(style: style)
         generator.impactOccurred()
