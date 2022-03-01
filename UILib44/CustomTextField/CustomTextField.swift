@@ -42,6 +42,7 @@ public protocol InputActionDelegate: AnyObject {
     func returnKeyAction()
 }
 
+// swiftlint:disable type_body_length
 public final class InputTextField: UIView, InputTextFieldProtocol {
 
     public var text: String? {
